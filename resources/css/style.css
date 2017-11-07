@@ -76,3 +76,40 @@ div {
 .column.small {
   width: 240px;
 }
+
+.image-content {
+  display: flex;
+  background-image: url("./background-images/img-story-main.png");
+}
+
+.cat-ceo.image-content {
+  background-image: url("./background-images/img-story-1.png");
+}
+
+.fall-cancelled.image-content {
+  background-image: url("./background-images/img-story-2.png");
+}
+
+.pop-culture.image-content {
+  background-image: url("./background-images/img-story-3.png");
+}
+
+.story .image-content span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.story .narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.lead-story .image-content span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
