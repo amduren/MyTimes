@@ -79,7 +79,23 @@ div {
 
 .image-content {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.lead-story .image-content{
   background-image: url("./background-images/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
 }
 
 .cat-ceo.image-content {
@@ -94,22 +110,7 @@ div {
   background-image: url("./background-images/img-story-3.png");
 }
 
-.story .image-content span {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-}
-
 .story .narrative {
-  font-family: Georgia;
   font-size: 17px;
   color: black;
-}
-
-.lead-story .image-content span {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 40px;
-  color: white;
 }
