@@ -47,3 +47,32 @@ nav span {
 .btn-nav {
   color: black;
 }
+
+/* main content section */
+div {
+  border: 1px solid black;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
