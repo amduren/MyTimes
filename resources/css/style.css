@@ -1,12 +1,14 @@
 body {
   margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 /* header section */
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   position: fixed;
   z-index: 5;
   width: 100%;
@@ -27,6 +29,10 @@ nav span {
   padding: 20px 10px;
 }
 
+a {
+  color: black;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -44,14 +50,12 @@ nav span {
   color: MediumAquamarine;
 }
 
-.btn-nav {
-  color: black;
-}
-
 /* main content section */
 .main {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
 }
 
 .column {
